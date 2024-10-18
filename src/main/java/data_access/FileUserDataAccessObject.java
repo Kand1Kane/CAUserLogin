@@ -93,6 +93,11 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     @Override
+    public void setCurrentUser(String name) {
+        // Empty cuz Task 2
+    }
+
+    @Override
     public boolean existsByName(String identifier) {
         return accounts.containsKey(identifier);
     }
